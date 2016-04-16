@@ -41,7 +41,9 @@
 /* Box */
 
 	.box.highlight {
-		padding-left: calc(4em + 30px);
+		/*padding-left: calc(4em + 30px);*/
+		text-align: center;
+		padding: 50px;
 	}
 
 	.box.post .inner {
@@ -59,7 +61,8 @@
 	}
 
 		#banner header {
-			padding: 20px;
+			/*padding: 20px;*/
+			width:50%;
 		}
 
 /* Wrapper */

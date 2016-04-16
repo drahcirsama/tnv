@@ -9,14 +9,14 @@
 
 /* Basic */
 
-	body,
+	/*body, 
 	#skel-layers-wrapper {
 		/* background: #fed74f; */ /* url("images/bg01.png"); */
-		background-color: #FFD236;
+		/*background-color: #FFD236;
 		background-size: 58px 58px;
 		background-position: 0px 2px, 4px 35px, 29px 31px, 33px 6px, 0px 36px, 4px 2px, 29px 6px, 33px 30px;
 		background-image: linear-gradient(335deg, #fed74f 23px, transparent 23px), linear-gradient(155deg, #fed74f 23px, transparent 23px), linear-gradient(335deg, #fed74f 23px, transparent 23px), linear-gradient(155deg, #fed74f 23px, transparent 23px), linear-gradient(335deg, #fed74f 10px, transparent 10px), linear-gradient(155deg, #fed74f 10px, transparent 10px), linear-gradient(335deg, #fed74f 10px, transparent 10px), linear-gradient(155deg, #fed74f 10px, transparent 10px);
-	}
+	}*/
 
 	body.is-loading * {
 		-moz-transition: none !important;
@@ -54,7 +54,6 @@
 
 		a:hover {
 			color: #004867;
-			/* border-bottom-color: transparent; */
 		}
 
 	strong, b {
@@ -543,6 +542,10 @@
 
 	.box.highlight {
 		text-align: center;
+		border:solid;
+		border-radius: 75px;
+		border-color:#004867;
+		padding:50px;
 	}
 
 	.box.highlight p{
@@ -741,13 +744,22 @@
 
 		#banner header {
 			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 100%;
+			right: 0;
+			width: 20%;
+			height: 100%;
 			background: #212121;
 			background: rgba(48, 24, 0, 0.75); /* rgba(27, 27, 27, 0.75); */
 			color: #fff;
 			padding: 1.75em 0;
+			text-decoration: underline;
+			text-transform: uppercase;
+		}
+		
+		#banner header .button{
+			width: 90%;	
+			margin:5px;
+			background-color: #EEE;
+			color:#004867;
 		}
 
 			#banner header h2 {
