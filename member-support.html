@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Lesson Info - The New Village 神戸｜英会話ザ・ニュービレッジ｜月謝制・三宮/旧居留地にあるアットホームな英会話スクール</title>
+		<title>Member Support - The New Village 神戸｜英会話ザ・ニュービレッジ｜月謝制・三宮/旧居留地にあるアットホームな英会話スクール</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -24,6 +24,15 @@
 			
 			  ga('create', 'UA-58734645-1', 'auto');
 			  ga('send', 'pageview');
+			  
+			 $(function() {
+				  var pricesheetiframe = $('#pricesheet'); // or some other selector to get the iframe
+				  console.log(pricesheetiframe.attr("id"));
+				  var google_embeded_image = pricesheetiframe.contents().find('.waffle-embedded-object-overlay');
+				  console.log(google_embeded_image.attr("id"));
+				  google_embeded_image.addClass('remove_google_imageborder');
+			  }); 
+			  
 		</script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -33,6 +42,7 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
+			
 		<!-- Header -->
 			<div id="header">
 						
@@ -41,12 +51,12 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="index.html" title="ホーム">Home</a></li>
-							<li class="current"><a href="lesson-info.html" title="英会話レッスン">Lesson Info</a></li>
-							<li><a href="schedule.html" title="スケジュール">Schedule</a></li>
-							<li><a href="teachers.html" title="英会話講師">Teachers</a></li>
-							<li><a href="events.html" title="イベント">Events</a></li>
-							<li><a href="map.html" title="地図" >Map</a></li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="lesson-info.html">Lesson Info</a></li>
+							<li><a href="schedule.html">Schedule</a></li>
+							<li><a href="teachers.html">Teachers</a></li>
+							<li><a href="events.html">Events</a></li>
+							<li><a href="map.html">Map</a></li>
 							<li><a href="careers.html">Careers</a></li>
 							<li><a href="links.html">Links</a></li>
 						</ul>
@@ -59,45 +69,27 @@
 
 						<!-- Content -->
 					
-							<article>
+							<article id="prices">
 								<header>
-									<h2>LESSONS TYPE<small>レッスンタイプ</small></h2>
+									<h2>Member Support <small>無料メンバーサポート</small></h2>
 								</header>
-								
-								<span class="image featured"><img src="images/TNVBanner.jpg" alt="" /></span>
-								
-								<section class="post">
-									<header>
-										<h1><em>Step Up Lessons - </em>ステップアップレッスン（一般英会話・90分）</h1>
-									</header>
-									<p>じっくり学べる90分の総合会話レッスン。文法、語彙、読み、書き、発音、発話練習を総合的に練習します。テキストに縛られずたっぷり話せるレッスンで確実に英会話力を身につけます。</p>
-								</section>	
+								<p>ニュービレッジがひと味ちがう最大の理由のひとつがこれ。レッスンだけではカバーできないきめ細かいサポートが無料で受けられます。</p>
 								
 								<section class="post">
-									<header>
-										<h1><em>Special Lesson - </em>スペシャルレッスン（目的別選択レッスン・90分）</h1>
-									</header>
-									<p>ビジネス、旅行、TOEIC、発音・リスニング、英訳練習などから選べる目的別レッスン。いろいろなレッスンを自由に組み合わせて受講いただけます。 
-										TOEICコースは厚生労働大臣指定一般教育訓練講座です。給付金の支給には一定の条件があります。詳しくはニュービレッジまでお気軽にお問合せください。
-									</p>
-								</section>	
-
-								<section class="post">
-									<header>
-										<h1><em>Supplement Lesson - </em> サプリメントレッスン（コミュニケーション術レッスン・45分）</h1>
-									</header>
-									<p>コミュニケーション力上達が目的のレッスン。新しいことを習うより、知っている言葉で上手に会話のキャッチボールができるようになるコツを学びます。</p>
-								</section>	
-								<!--
-								<section class="post">
-									<header>
-										<h1><em>Private Lessons – </em>プライベートレッスン（マンツーマンレッスン・45分)</h1>
-									</header>
-									<p>その他皆さんのご希望にあわせて、講師と1対1のプライベートレッスンや、お友達と受講できるセミ-プライベートレッスンもご用意しております。詳しくはニュービレッジまでお気軽にお問合せください。</p>
-								</section>	
-								-->
+										<h4>ライブラリー</h4>
+										<hr />
+										<p>英語を勉強する人たちのために編集された英国オックスフォード大学出版の英書無料貸し出し。６段階にレベル分けされているので初心者でもムリなく読み終えることができます。</p>
+										
+										<h4>カウンセリング</h4>
+										<hr />
+										<p>毎月一回、講師によるプライベート指導で進度や勉強法についてのきめこまかいアドバイス。みんな長所も短所も違うからじっくり話し合ってあなたにぴったりの勉強法を見つけてください。</p>
+										
+										<h4>ジャーナル添削</h4>	
+										<hr />
+										<p>思いついたことを自由に英語で書いてみる。自分の英語の悪いクセも見えてくるし、英作力もアップ！エラーチェックだけでなく、自然な言いまわしも教えてもらえるので表現力も広がります。</p>
+								</section>
 							</article>
-				
+							
 					</div>
 				</div>
 			</section>			
@@ -135,7 +127,7 @@
 						<li><a href="https://www.facebook.com/NewVillageKobe" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="http://kobenewvillage.tumblr.com/" target="_blank" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
 					</ul>
-					
+
 				<!-- Copyright -->
 					<div class="copyright">
 						<ul class="menu">
