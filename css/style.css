@@ -86,8 +86,15 @@
 		}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.3em;
 		letter-spacing: -0.025em;
+	    background-color: #fed74f;
+	    padding: 0.5em;
+	    color: #004867;
+	}
+	
+	h2 small{
+		font-size: 0.7em;
 	}
 
 	h3 {
@@ -760,8 +767,13 @@
 			margin:5px;
 			background-color: #EEE;
 			color:#004867;
+			text-decoration: underline;
+			vertical-align: middle;
 		}
 
+		#banner header .button:hover{
+		color:black !important;	
+		}
 			#banner header h2 {
 				/* display: inline-block; */
 				margin: 0;
@@ -784,10 +796,6 @@
 						border-bottom-color: transparent;
 					}
 
-			#banner header .button {
-				vertical-align: middle;
-				margin-left: 1em;
-			}
 			
 			#banner .header .button .notice
 			{
@@ -942,12 +950,9 @@
 		}
 	
 	.post {
-		padding: 20px;
 		border-radius: 4px;
 		overflow: hidden;
 		background: #fff;
-		border: 1px solid rgba(0,0,0,.08);
-		margin-bottom: .5em;
 	}	
 		
 /* Google Docs */
@@ -1021,14 +1026,15 @@
 	
 	.post header{
 		width: 100%;
-		color: #fff;
-		padding:0.5em;
-		background-color: #004867;
-		margin-bottom: 1em;
+		color: #0B018B;
 	}
-	.post header h1{
-		margin: 0;
+	
+	.post header hr{
+		height: 5px;		
+	    background-color: #92B7B7;
+	    border:none;
 	}
+	
 
 /* flag-icon */
 
