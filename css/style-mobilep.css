@@ -73,6 +73,7 @@
 	#bannerbuttons .button{
 		 font-size: 1em;
 		 width:50%;
+		 line-height: 1.75em;
 	}
 
 	#bannerbuttons ul{

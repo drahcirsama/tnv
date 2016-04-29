@@ -739,6 +739,23 @@
 			margin-top: -1px;
 		}
 
+/* Top Bars */
+	.top-bar h2{
+		text-align: center;
+		margin: 0px;
+	}
+	
+	.top-white-bar h2{
+		background-color: white;
+		color: #004867;
+	}
+	
+	.top-blue-bar h2{
+		background-color: #004867;
+		color: white;
+		font-weight: normal;
+	}
+	
 /* Banner */
 
 	#banner {
