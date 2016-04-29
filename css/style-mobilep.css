@@ -60,11 +60,25 @@
 		height: 20em;
 	}
 
-		#banner header {
-			/*padding: 20px;*/
-			width:50%;
-		}
+	#banner header {
+		/*padding: 20px;*/
+		width:50%;
+	}
+	
+	#bannerbuttons{
+		right:inherit;
+		top: 6.5%;
+	}
 
+	#bannerbuttons .button{
+		 font-size: 1em;
+		 width:50%;
+	}
+
+	#bannerbuttons ul{
+		margin: 0.35em;
+	}
+	
 /* Wrapper */
 
 	.wrapper {

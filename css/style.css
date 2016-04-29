@@ -145,6 +145,7 @@
 
 		header.major h2 {
 			font-size: 2.25em;
+			background: none;
 		}
 
 		header.major p {
@@ -749,7 +750,7 @@
 		position: relative;
 	}
 
-		#banner header {
+		.sidebar {
 			position: absolute;
 			right: 0;
 			width: 20%;
@@ -762,19 +763,36 @@
 			text-transform: uppercase;
 		}
 		
-		#banner header .button{
+		#bannerbuttons{
+			position: absolute;
+			right: 22.5%;
+			top: 25%;
+		}
+		
+		.sidebar .button{
 			width: 90%;	
 			margin:5px;
-			background-color: #EEE;
-			color:#004867;
 			text-decoration: underline;
 			vertical-align: middle;
 		}
+		
+		.white-button{
+			background-color: #EEE;
+			color:#004867;
+		}
+		
+		#bannerbuttons .button{
+			font-size: 1.5em;
+			font-weight: 300;
+			margin:5px;
+			text-decoration: underline;
+		}
+		
 
-		#banner header .button:hover{
+		.sidebar .button:hover{
 		color:black !important;	
 		}
-			#banner header h2 {
+			.sidebar h2 {
 				/* display: inline-block; */
 				margin: 0;
 				font-size: 1em;
@@ -782,22 +800,24 @@
 				line-height: normal;
 				font-weight: normal;
 				margin-bottom: 1em;
+				color:white;
+				background:none;
 			}
 
-				#banner header h2 em {
+				.sidebar h2 em {
 					opacity: 0.75;
 				}
 
-				#banner header h2 a {
+				.sidebar h2 a {
 					border-bottom-color: rgba(255, 255, 255, 0.5);
 				}
 
-					#banner header h2 a:hover {
+					.sidebar h2 a:hover {
 						border-bottom-color: transparent;
 					}
 
 			
-			#banner .header .button .notice
+			.sidebar .button .notice
 			{
 				width: 1em;
 			    font-size: 40px;
@@ -810,21 +830,6 @@
 				margin-left: auto; 
 				margin-right: auto; 
 				width: 1000px;
-			}
-			
-			#banner ul
-			{
-				text-align: left;
-				margin-left: auto;
-				margin-right: auto;
-				color: white;
-			}
-				
-			#banner li {
-				font-size: 2.5rem;
-				padding-top: 2.5%;
-				padding-bottom: 2.5%
-				;
 			}
 
 
@@ -1026,12 +1031,12 @@
 	
 	.post header{
 		width: 100%;
-		color: #0B018B;
+		color: #005580;
 	}
 	
 	.post header hr{
 		height: 5px;		
-	    background-color: #92B7B7;
+	    background-color: #005580;
 	    border:none;
 	}
 	
@@ -1596,4 +1601,9 @@ font-size: 1.5em;
 }
 .box.highlight h3{
 	text-decoration: underline;
+}
+
+.navy h2{
+	background-color: #004867;
+	color: white;
 }
