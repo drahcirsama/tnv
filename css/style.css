@@ -476,7 +476,7 @@
 		background-image: -o-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
 		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15)), url("images/bg01.png");
-		border-radius: 5px;
+		/* border-radius: 5px; */
 		border: 0;
 		color: white;
 		cursor: pointer;
@@ -778,7 +778,7 @@
 			width: 20%;
 			height: 100%;
 			background: #212121;
-			background: rgba(48, 24, 0, 0.75); /* rgba(27, 27, 27, 0.75); */
+			background: rgba(0, 72, 103, 0.6);
 			color: #fff;
 			padding: 1.75em 0;
 			text-decoration: underline;
@@ -804,7 +804,6 @@
 		}
 		
 		#map-button{
-			border-radius: 0px;
 			line-height: 2em;
 			min-width: 0px;
 			float:right;	
@@ -1624,9 +1623,29 @@ font-size: 1.5em;
 }
 
 .box.highlight ul.sublist{
-	list-style: circle;	
+	list-style: none;	
 	margin-left: 2em;
 	font-size: 0.75em;
+}
+
+
+.box.highlight ul.sublist li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.box.highlight ul.sublist li:before {
+  content: "*";
+  padding-right: 5px;
+}
+
+.box.highlight ul.sublist li.imp:before {
+  content: "**";
+  padding-right: 5px;
+}
+.box.highlight ul.sublist li:before {
+  content: "*";
+  padding-right: 5px;
 }
 .box.highlight h3{
 	text-decoration: underline;
