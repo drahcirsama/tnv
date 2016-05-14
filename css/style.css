@@ -635,12 +635,14 @@
 	}
 
 		#nav:after {
+			/*
 			content: '';
 			display: block;
 			width: 100%;
 			height: 0.75em;
 			background-color: #004867;
 			background-image: url("images/bg01.png");
+			*/
 		}
 
 		#nav > ul {
@@ -799,6 +801,13 @@
 		.white-button{
 			background-color: #EEE;
 			color:#004867;
+		}
+		
+		#map-button{
+			border-radius: 0px;
+			line-height: 2em;
+			min-width: 0px;
+			float:right;	
 		}
 		
 		#bannerbuttons .button{
