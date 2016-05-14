@@ -18,6 +18,9 @@
 		background-image: linear-gradient(335deg, #fed74f 23px, transparent 23px), linear-gradient(155deg, #fed74f 23px, transparent 23px), linear-gradient(335deg, #fed74f 23px, transparent 23px), linear-gradient(155deg, #fed74f 23px, transparent 23px), linear-gradient(335deg, #fed74f 10px, transparent 10px), linear-gradient(155deg, #fed74f 10px, transparent 10px), linear-gradient(335deg, #fed74f 10px, transparent 10px), linear-gradient(155deg, #fed74f 10px, transparent 10px);
 	}*/
 
+	body{
+		margin-top: 0.50em;
+	}
 	body.is-loading * {
 		-moz-transition: none !important;
 		-webkit-transition: none !important;
