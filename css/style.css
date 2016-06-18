@@ -132,7 +132,21 @@
 	section.special, article.special {
 		text-align: center;
 	}
-
+	
+	#header-tel{
+		position:absolute;
+		right:10px;
+		padding-top:0.5em;
+	}
+	
+	#header-tel h2{
+		font-size: 1.1em;
+	}
+	
+	#header-tel h2, #header-tel h4, #header-tel h5{
+		margin: 0;
+		padding: 0;
+	}
 	header p {
 		color: #7D7D7D;
 		font-size: 1.25em;
